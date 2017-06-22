@@ -94,6 +94,8 @@ void checksum(const cvec &xs, cvec &out) {
 // length of the previous stage - so we could quickly calculate
 // at which iteration we'd achieve the depth we wanted.
 // Hm.. Ah well, maybe later. 
+// ^H^H update: someone has already done it
+// https://byorgey.wordpress.com/2017/01/27/advent-of-code-16-solution-an-algebra-of-bitstrings/
 void fill_and_check(const cvec &state, int desiredLen, cvec &csum) {
   assert(desiredLen % 2 == 0);
 
